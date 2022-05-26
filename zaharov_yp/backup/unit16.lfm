@@ -1,0 +1,94 @@
+object glava5: Tglava5
+  Left = 502
+  Height = 763
+  Top = 192
+  Width = 865
+  Caption = 'glava5'
+  ClientHeight = 763
+  ClientWidth = 865
+  Color = 16777137
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 648
+    Height = 67
+    Top = 198
+    Width = 680
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Глава 5: Высокий лорд Вольнир'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -46
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object Memo1: TMemo
+    Left = 104
+    Height = 456
+    Top = 285
+    Width = 1745
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      'После прохождения босса спукаемся вниз, подходит к выступу и прыгаем на карниз, а затем и на этаж ниже. Это действие сэкономит нам кучу времени. Справа надо убить скелета, чтобы он нам не помешал дальше. С камня надо подабрать пепел, чтобы поднять уровень фласки. Бежим дальше, поворачиваем налево и перепрыгиваем дыру. Подбираем огненную бумагу и продолжаем бежать. пробегаем моба и перезаходим в игру, потому что он один из быстрых. Так что перезаходим в игру и продолжаем бежать. Далее пробрегаем через навесной мост, открываем дверь, и скипаем анимацию. Перед нами стоит чаша. Подходим к ней и активируем ее. Это приведет нас на арену с боссом Высокий лорд Вольнир. Тактика с ним очень простая. Используем баг Вордта, делаем 2 заряженные атаки по первому кольцу. 7 обыных по второму и 5 ударов по последнему кольцу. Поздравляю вы прошли Вольнира'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 882
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Содержание теории'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 525
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Назад'
+    Color = clHotLight
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 1241
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Далее'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 3
+  end
+end

@@ -1,0 +1,95 @@
+object glava4: Tglava4
+  Left = 295
+  Height = 769
+  Top = 72
+  Width = 1005
+  Caption = 'glava4'
+  ClientHeight = 769
+  ClientWidth = 1005
+  Color = 16777137
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 672
+    Height = 67
+    Top = 198
+    Width = 584
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Глава 4: Хранители Бездны'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -46
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object Memo1: TMemo
+    Left = 104
+    Height = 456
+    Top = 285
+    Width = 1745
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      'После того, как мы победили Великое древо и попали на поверхность, нам нужно продвигаться дальше. Идем дальше и подбегая к мосту надо использовать красивый череп, бросив его в правую дверь. Это поможет отвлечь собак и бабку, потому что нам лишние драки не нужны. Пробегаем влево и обходим всех противников. Добежав до двери открываем ее и скипаем анимацию. Для того, чтобы не ждать лифта мы кидаем на себя спук и просто падаем в низ с перкатом на него, и как только преземлились падаем до конца вниз. Далее перд нами появится мини босс, которого можно пропускать, потому что он не подходит под категорию AllBosses. Пропускается очень просто: бежим на него вправо от нас, перед его первым ударом делаем кувырок и просто бежим к двери, скипаем анимацию и заодно возвращаем его на первоначальную позицию. Пройдя через дверь пропускаем костер и бежим влево, а потом заворачиваем в арку. Далее падаем вниз и делаем главныый глитч.'
+      'Подходим к краю дыры, делаем прыжок с края на карай, но должны задеть немнго саму дыру. Этот баг называется KillCam Glitch. Это работает так: мы попадаем в килбокс и игра начинает думать, что мы умерли, тем самым переставая прогружать локацию дальше. Но мы живы, так что продвигаемся дальше. С помощью этого бага мы пропускаем болота, что позволяет нам сразу прийти к Хранителям Бездны. Но делать мы этого не будем. Вместо этого мы идем к третьему костру и активируем его, и идем вперед, чтобы забрать скимитары наемника печь. Используем косточку возврвращения и перемещаемся к костру, а от костра бежим к боссу. Пробегаем всех мобов и скипаем анимацию открывания двери. Под углом в 45 градусов мы заходим на арену, перезаходим в игру, делаем такой же баг с оружием, который мы делали на Великом древе просто начинаем бить неактивного босса. Я не знаю, почему это работает так, но факт есть факт. Поздравляю, мы убили одного из сложных боссов в игре за 30 секунд.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 882
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Содержание теории'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 525
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Назад'
+    Color = clHotLight
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 1241
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Далее'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 3
+  end
+end

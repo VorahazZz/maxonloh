@@ -1,0 +1,93 @@
+object menuu: Tmenuu
+  Left = 346
+  Height = 641
+  Top = 194
+  Width = 961
+  Caption = 'Меню'
+  ClientHeight = 641
+  ClientWidth = 961
+  Color = 16777137
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 787
+    Height = 160
+    Top = 307
+    Width = 400
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Обучение по'#13#10'speedrun''у'#13#10'DarkSouls III'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -46
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object Button1: TButton
+    Left = 915
+    Height = 25
+    Top = 506
+    Width = 158
+    Caption = 'Начать обучение'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 915
+    Height = 25
+    Top = 550
+    Width = 158
+    Caption = 'Содержание теории'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 915
+    Height = 25
+    Top = 595
+    Width = 158
+    Caption = 'Содержание тестов'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 915
+    Height = 25
+    Top = 640
+    Width = 158
+    Caption = 'Назад'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button4Click
+    ParentFont = False
+    TabOrder = 3
+  end
+end

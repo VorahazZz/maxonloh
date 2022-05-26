@@ -1,0 +1,96 @@
+object glava1: Tglava1
+  Left = 465
+  Height = 695
+  Top = 98
+  Width = 1176
+  Caption = 'glava1'
+  ClientHeight = 695
+  ClientWidth = 1176
+  Color = 16777137
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 768
+    Height = 67
+    Top = 198
+    Width = 400
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Глава 1: Начало'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -46
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object Memo1: TMemo
+    Left = 104
+    Height = 456
+    Top = 285
+    Width = 1745
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      'Добро пожаловать в обучающую программу по speedrun''у игры DarkSouls III. Хоть эта игра уже считается "мертвой" для скоростного прохождения, но это отличный вариант для того, чтобы приобщиться к миру "спидранов", потому что в этой игре есть почти все элемнты, которые используются в других играх: выход за текстуры, "тайминги", "билды" и т.д.. Стоит обозначить, что существуют разные категории в спидране: Any% - это прохождение, которое разрешает использование любых "глитчей" и не обязывет проходить игру на 100%, главное получить финальные титры. AllBosses - пройти игру с убийством всех боссов. Также есть и другие категории, но они не так популярны как эти две. Тут я буду разбирать категорию AllBosses , потому что она, на мой взгляд, гораздо проще для объяснений, чем Any%.'
+      ''
+      'Ну чтож, начнем. Для спидрана Вам потребуется версия игры 1.12 регуляции 1.32. В самом начале у Вас будет выбор характеристик своего персонажа. Выбираем класс "Убийца" или "Assasin". Погребальный дар "Выбираем огненный самоцвет". Всё остальное не имеет значение. По пути к первому боссу нужно с себя снять все вещи, кроме оружия, потому что вес снаряжения влияет на скорость вашего персонажа. Первый босс убивается очень просто: 13 ударов, заряженная атака, бьем в оглушение и он умирает. Проходим дальше и открываем дверь. Чтобы сохранить время нужно во время открытия двери выйти в главное меню и зайти обратно. Связано это с тем, что когда вы открываете дверь игра уже считает, что вы ее открыли, но анимация - это слишком долго для нас, так мы ее скипаем. Бежим до Храма огня, затем покупаем Длинный меч и активируем костер.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 882
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Содержание теории'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 525
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Назад'
+    Color = clHotLight
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 1241
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Далее'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 3
+  end
+end

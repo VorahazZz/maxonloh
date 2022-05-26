@@ -1,0 +1,76 @@
+object vhod: Tvhod
+  Left = 239
+  Height = 801
+  Top = 109
+  Width = 874
+  Caption = 'Вход'
+  ClientHeight = 801
+  ClientWidth = 874
+  Color = 16777137
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 800
+    Height = 112
+    Top = 339
+    Width = 314
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Как к Вам'#13#10'обращаться?'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -46
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentBidiMode = False
+    ParentFont = False
+    Transparent = False
+  end
+  object Edit1: TEdit
+    Left = 800
+    Height = 27
+    Top = 476
+    Width = 314
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnChange = Edit1Change
+    OnKeyPress = Edit1KeyPress
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 909
+    Height = 25
+    Top = 521
+    Width = 109
+    Caption = 'Продолжить'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 909
+    Height = 25
+    Top = 566
+    Width = 109
+    Caption = 'Выйти'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+end

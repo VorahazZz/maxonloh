@@ -1,0 +1,130 @@
+object ster1: Tster1
+  Left = 291
+  Height = 753
+  Top = 138
+  Width = 1164
+  Caption = 'ster1'
+  ClientHeight = 0
+  ClientWidth = 0
+  Color = 16777137
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 744
+    Height = 122
+    Top = 250
+    Width = 400
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Содержание'#13#10'теории'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -46
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object Label2: TLabel
+    Left = 875
+    Height = 20
+    Top = 496
+    Width = 148
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Начало'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+    OnClick = Label2Click
+  end
+  object Label3: TLabel
+    Left = 848
+    Height = 20
+    Top = 534
+    Width = 215
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Вордт из Холодной долины'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+    OnClick = Label3Click
+  end
+  object Label4: TLabel
+    Left = 875
+    Height = 20
+    Top = 572
+    Width = 148
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Великое древо'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+    OnClick = Label4Click
+  end
+  object Button25: TButton
+    Left = 1168
+    Height = 29
+    Top = 748
+    Width = 184
+    Caption = 'Следующая страница'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button25Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button26: TButton
+    Left = 531
+    Height = 29
+    Top = 748
+    Width = 184
+    Caption = 'Назад в меню'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button26Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label26: TLabel
+    Left = 920
+    Height = 29
+    Top = 748
+    Width = 42
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '1/2'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+end

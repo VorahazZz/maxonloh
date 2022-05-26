@@ -1,0 +1,93 @@
+object glava6: Tglava6
+  Left = 263
+  Height = 455
+  Top = 85
+  Width = 765
+  Caption = 'glava6'
+  ClientHeight = 455
+  ClientWidth = 765
+  Color = 16777137
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 648
+    Height = 67
+    Top = 198
+    Width = 680
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Глава 6: Финал'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -46
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object Memo1: TMemo
+    Left = 104
+    Height = 456
+    Top = 285
+    Width = 1745
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      'После победы над боссом подбегаем обратно к мосту, используем спук, прыгаем вниз. Пропускаем мини босса и подбираем большой осколок титанита. Он нам понадобится для улучшения оружия. Спускаемся вниз и активируем костер. Используе косточку возвращения в Храм огня. Подбегаем к бабке и закупаем титанит и косточки. У кузнеца прокачиваем скимитары на +4 и делаем их острыми. Прокачиваем ловкость до 39 уровня. Телепортируемся на болота и подбираем траву и травяной щит. Бежим к боссу "Кристальная маска" и делаем следующее: подходим к нему и ждем его атаки с меча и парируем ее. После в двуручном хвате начинаем его бить. Поздравляю, вы прошли последнего босса  в игре. Таким образом Nemz38 поставил мировой рекорд в 1.15.48. Желаю вам удачи в спидране этой замечательной игры!'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 882
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Содержание теории'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 525
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Назад'
+    Color = clHotLight
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 1241
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Далее'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 3
+  end
+end

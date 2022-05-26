@@ -1,0 +1,96 @@
+object glava4: Tglava4
+  Left = 285
+  Height = 769
+  Top = 119
+  Width = 1005
+  Caption = 'glava4'
+  ClientHeight = 769
+  ClientWidth = 1005
+  Color = 16777137
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 736
+    Height = 67
+    Top = 198
+    Width = 464
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Глава 3: Великое древо'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -46
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object Memo1: TMemo
+    Left = 104
+    Height = 456
+    Top = 285
+    Width = 1745
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      'После того, как мы попали на следующую локацию мы должны перед спуском подойти к левому перилу и наложить на себя спук и спрыгнуть на собак снизу. Сразу после преземления нужно сделать кувырок, чтобы сократить урон от падения. Рядом с ними нужно подобрать череп и идти к воротам. Пробегаем костер, потому что сюда мы возвращаться не будем. В здании после костра нужно подобрать огненную бумагу, она нам пригодиться далее. Выходить нужно через балкон, и бежим к огненному дереву, рядом с которым лежит осколок эстуса. Подбираем его и бежим в следующее здание через арку. После того как зашли, бежим влправо и подбираем огненную бумагу. Пробегаем прямо к отверстию в полу и падаем туда. Бежим дальше по коридору никого не убивая. Идем вправо и продвигаемся до второго поворота вправо. После этого падаем влево и нужно задеть платформу между нами и землей, чтобы получить меньше дмг. Следуем за ящерецей и после того, как она остановится делаем усиленную атаку в двурочной стойке. Это убьет ее с одного удара. Идем к боссу.'
+      ''
+      'Перед дракой с ним нужно провернуть тот же трюк с оружием, что мы делали у Вордта, но с 1 изменением. Вместо золотой бумаги мы берем огненную. Потому что если оружие зачарованное на огонь смазать огнем, то урон будет очень большим. На первой стадии нужно сломать только 2 яйца, потому что если сломать третье, то у него будет очень долгая анимация. Ждем, когда он проломит пол и перейдет во вторую фазу. Во второй фазе просто добиваем оставшиеся яйца. После того, как мы его убили нужно срочно подобрать косточку возвращения и выйти из игры в прыжке, когда только польявилась надбись "Босс повержен". Это делается для того, чтобы сразу оказаться на поверхности. Ведь игрой предусматривается что после победы над боссом мы должны испльзовать костер для возвращения, но у нас нет времени на это. Поздравляю, мы прошли Великое древо.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 882
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Содержание теории'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 525
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Назад'
+    Color = clHotLight
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 1241
+    Height = 29
+    Top = 745
+    Width = 184
+    Caption = 'Далее'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 3
+  end
+end

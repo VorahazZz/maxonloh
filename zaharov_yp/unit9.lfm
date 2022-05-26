@@ -1,0 +1,114 @@
+object rez1: Trez1
+  Left = 232
+  Height = 801
+  Top = 109
+  Width = 881
+  Caption = 'Результат'
+  ClientHeight = 801
+  ClientWidth = 881
+  Color = 16777137
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 810
+    Height = 115
+    Top = 179
+    Width = 349
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Результат'#13#10'теста'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -46
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object Label2: TLabel
+    Left = 810
+    Height = 26
+    Top = 312
+    Width = 349
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Нажмите, чтобы узнать результат'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -18
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+    OnClick = Label2Click
+  end
+  object Button1: TButton
+    Left = 570
+    Height = 29
+    Top = 738
+    Width = 200
+    Caption = 'Назад в меню'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 896
+    Height = 29
+    Top = 738
+    Width = 184
+    Caption = 'Содержание тестов'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 1229
+    Height = 29
+    Top = 738
+    Width = 184
+    Caption = 'Содержание теории'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Memo1: TMemo
+    Left = 570
+    Height = 322
+    Top = 392
+    Width = 843
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 888
+    Height = 29
+    Top = 352
+    Width = 200
+    Caption = 'Просмотр всех результатов'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button4Click
+    ParentFont = False
+    TabOrder = 4
+  end
+end

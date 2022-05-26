@@ -1,0 +1,314 @@
+object test5: Ttest5
+  Left = 308
+  Height = 240
+  Top = 127
+  Width = 320
+  Caption = 'test5'
+  ClientHeight = 240
+  ClientWidth = 320
+  Color = 16777137
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 677
+    Height = 109
+    Top = 186
+    Width = 592
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Тест на тему'#13#10'"Высокий лорд Вольнир"'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -46
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 429
+    Height = 105
+    Top = 344
+    Width = 185
+    AutoFill = True
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 81
+    ClientWidth = 181
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Items.Strings = (
+      'Вниз'
+      'Вверх'
+      'Прямо'
+    )
+    ParentBackground = False
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 0
+  end
+  object CheckGroup1: TCheckGroup
+    Left = 429
+    Height = 102
+    Top = 512
+    Width = 179
+    AutoFill = True
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 78
+    ClientWidth = 175
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Items.Strings = (
+      'Справа'
+      'Слева'
+      'Сверху'
+    )
+    ParentBackground = False
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 1
+    Data = {
+      03000000020202
+    }
+  end
+  object Edit1: TEdit
+    Left = 429
+    Height = 27
+    Hint = 'Введите вариант ответа маленькими буквами'
+    Top = 657
+    Width = 185
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 512
+    Height = 29
+    Top = 912
+    Width = 184
+    Caption = 'Назад'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 896
+    Height = 29
+    Top = 912
+    Width = 184
+    Caption = 'Содержание тестов'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 1228
+    Height = 29
+    Top = 912
+    Width = 184
+    Caption = 'Далее'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Label2: TLabel
+    Left = 96
+    Height = 19
+    Top = 344
+    Width = 309
+    Caption = 'Куда поднимаемся после Хранителей Бездны'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object Label3: TLabel
+    Left = 96
+    Height = 19
+    Top = 512
+    Width = 126
+    Caption = 'Где убить скелета?'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object Label4: TLabel
+    Left = 96
+    Height = 19
+    Top = 657
+    Width = 165
+    Caption = 'Что подбираем с камня?'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object RadioGroup2: TRadioGroup
+    Left = 429
+    Height = 105
+    Top = 742
+    Width = 219
+    AutoFill = True
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 81
+    ClientWidth = 215
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Items.Strings = (
+      '14'
+      '12'
+      '13'
+    )
+    ParentBackground = False
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 6
+  end
+  object Label5: TLabel
+    Left = 96
+    Height = 38
+    Top = 768
+    Width = 143
+    Caption = 'Сколько всего ударов'#13#10'нужно сделать?'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object RadioGroup3: TRadioGroup
+    Left = 1008
+    Height = 105
+    Top = 344
+    Width = 185
+    AutoFill = True
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 81
+    ClientWidth = 181
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Items.Strings = (
+      'Для улучшения фласки'
+      'Для улучшения оружия'
+      'Для улучшения брони'
+    )
+    ParentBackground = False
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 7
+  end
+  object Label6: TLabel
+    Left = 736
+    Height = 19
+    Top = 344
+    Width = 157
+    Caption = 'Для чего нужен пепел?'
+    Color = 16762033
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    Transparent = False
+  end
+  object Label7: TLabel
+    Left = 1408
+    Height = 55
+    Top = 344
+    Width = 112
+    AutoSize = False
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 156
+    Top = 66
+  end
+end
